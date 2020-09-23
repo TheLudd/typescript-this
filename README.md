@@ -25,4 +25,4 @@ Also: the other files in the lib folder may be turned into TS if you want but it
 
 ## tests
 
-Run the tests with `yarn tests`. If you want a watcher, run `yarn test -w`
+Run the tests with `yarn test`. If you want a watcher, run `yarn test -w`
