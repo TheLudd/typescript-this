@@ -22,3 +22,7 @@ Expected results:
   * If it is not possible to have some or all of the functionality above, explan what the limitations are.
 
 Also: the other files in the lib folder may be turned into TS if you want but it is not needed.
+
+## tests
+
+Run the tests with `yarn tests`. If you want a watcher, run `yarn test -w`
