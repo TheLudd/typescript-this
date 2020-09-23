@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "source-map-support": "^0.5.19"
+  },
+  "name": "typescript-this",
+  "version": "0.0.0",
+  "description": "A challenge to turn this working JS code into TS",
+  "main": "index.js",
+  "author": "Ludwig Magnusson <ludwig.magnusson@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha",
+    "transpile": "mkdir -p dist && babel lib -d dist --source-maps",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "yarn clean && yarn transpile"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5"
+  }
+}
